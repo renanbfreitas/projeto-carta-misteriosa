@@ -49,7 +49,7 @@ function criarText() {
 
 const bCriarCarta = document.createElement('button');
 bCriarCarta.id = 'criar-carta';
-bCriarCarta.className = 'btn btn-success'
+bCriarCarta.className = 'btn btn-success';
 bCriarCarta.innerText = 'Criar Carta';
 localInput.appendChild(bCriarCarta);
 bCriarCarta.addEventListener('click', criarText);
